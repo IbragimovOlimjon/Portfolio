@@ -239,7 +239,8 @@ img {
     display: block;
     width: 360px;
     height: 223px;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center top;
     border-radius: 7px 7px 0px 0px;
 }
 .main-info__data {
@@ -256,6 +257,7 @@ img {
     margin-bottom: 9px;
 }
 .main-info__text {
+    flex-grow: 1;
     font-size: 18px;
     line-height: 24px;
     margin: 0;
