@@ -203,19 +203,18 @@ img {
 /* MAIN-CONTENT */
 .main-content {
     flex-grow: 1;
-}
-
-/* MAIN-INFO */
-.main-info {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+/* MAIN-INFO */
 .main-info__title {
     font-weight: 700;
     font-size: 32px;
     line-height: 33px;
+    text-align: center;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 .main-info__list {
     display: flex;
@@ -235,6 +234,7 @@ img {
     background-color: var(--color);
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
 .main-info__img {
     display: block;
     width: 360px;
@@ -267,7 +267,7 @@ img {
 .main-info__links {
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .main-info__links-wrapper {
@@ -277,11 +277,22 @@ img {
     padding: 8px 12px;
     border-radius: 5px;
     border: 2px solid var(--color-text);
+    transition: 0.3s ease;
+}
+
+.main-info__links-wrapper:hover {
+    transform: translateY(-3px);
+}
+
+
+.main-info__links-wrapper:active {
+    opacity: 0.6;
 }
 
 .main-info__links-wrapper:not(:last-child) {
     margin-right: 18px;
 }
+
 .main-info__links-text {
     font-weight: 700;
     font-size: 16px;
@@ -294,17 +305,27 @@ img {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-    padding: 5px;
+    padding: 8px 95px;
+    border: 2px solid var(--color);
+    border-radius: 198px 18px 198px 18px;
+    transition:transform 0.3s ease ;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .main-info__links-info:hover {
-    text-decoration: var(--color-text) underline;
+    transform: translateX(5px);
+}
+
+.main-info__links-info:active {
+    border-color: #babec9;
+    transform: translateX(5px);
 }
 
 .main-info__info-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    margin-right: 7px;
     color: var(--color-text);
 }
 
@@ -314,5 +335,8 @@ img {
 }
 
 .main-info__links-img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
 }
 
