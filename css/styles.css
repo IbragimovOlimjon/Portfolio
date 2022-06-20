@@ -23,7 +23,7 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 100px;
-    background-image: linear-gradient(180deg, rgba(255, 204, 128, 0.5) 0%, rgba(60, 72, 82, 0.5) 99%);
+    background-color: rgba(0, 0, 0, 0.1);
     box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
 }
 
@@ -514,12 +514,10 @@ img {
 
 .color-title {
     color: #1f4869;
-    text-transform: uppercase;
 }
 
 .color-hub {
     color: #f45f03;
-    text-transform: uppercase;
     margin-right: 5px;
 }
 
@@ -570,6 +568,8 @@ img {
     border-radius: 3px;
     letter-spacing: 0.1em;
     transition: 0.1s ease;
+    white-space: nowrap;
+    cursor: pointer;
 }
 
 .header-site__btn:hover {
@@ -608,10 +608,10 @@ img {
 
 .info-section__heading {
     font-weight: 700;
-    font-size: 60px;
-    line-height: 72px;
+    font-size: 52px;
+    line-height: 57px;
     margin: 0;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .info-section__text {
