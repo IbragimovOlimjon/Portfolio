@@ -623,6 +623,12 @@ img {
     color: var(--color-text);
 }
 
+.info-section__text--description {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
 .info-section__link {
     display: inline-block;
     text-decoration: none;
