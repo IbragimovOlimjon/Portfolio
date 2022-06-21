@@ -145,7 +145,7 @@ img {
     bottom: 219px;
 }
 
-.site-header__facade--right {
+.site-header__facade-right {
     position: absolute;
     width: 750px;
     height: 450px;
@@ -185,11 +185,11 @@ img {
     margin: 0;
 }
 
-.site-geader__text--purple {
+.site-header__text-purple {
     color: #1f4869;
 }
 
-.site-geader__text--purple {
+.site-header__text-purple {
     color:  #f45f03;
 }
 
@@ -506,7 +506,7 @@ img {
     line-height: 35px;
 }
 
-.header-site__heading--small {
+.header-site__heading-small {
     font-weight: 700;
     font-size: 23px;
     line-height: 29px;
@@ -623,7 +623,7 @@ img {
     color: var(--color-text);
 }
 
-.info-section__text--description {
+.info-section__text-description {
     font-size: 16px;
     margin: 0;
     margin-bottom: 30px;
