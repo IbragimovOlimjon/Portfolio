@@ -312,12 +312,21 @@ img {
 .main-info__links-wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 5px;
     border: 2px solid var(--color-text);
     transition: 0.3s ease;
 }
+
+
+.main-info__links-wrapper {
+    content: "";
+    background-color: var(--color);
+    inset: 4px;
+}
+
 
 .main-info__links-wrapper:hover {
     transform: translateY(-3px);
@@ -338,6 +347,7 @@ img {
     line-height: 20px;
     color: var(--black);
     margin-right: 7px;
+    z-index: 10;
 }
 
 .main-info__links-info {
@@ -377,6 +387,7 @@ img {
     width: 18px;
     height: 18px;
     object-fit: contain;
+    z-index: 10;
 }
 
 
@@ -694,4 +705,10 @@ img {
     line-height: 20px;
     color: var(--color-text);
     margin: 0;
+}
+
+/* KALISO */
+.kaliso .koliso__one{
+}
+.koliso__one {
 }
